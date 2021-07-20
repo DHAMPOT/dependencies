@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-		<!--Remote-->
+	<!--Remote-->
         <remote name="D4rkKnight21" fetch="https://github.com/D4rkKnight21" />
         <remote name="DHAMPOT" fetch="https://github.com/DHAMPOT"/>
         <remote name="gut" fetch="https://github.com" />
@@ -11,12 +11,12 @@
         <project path="vendor/xiaomi/platina" name="vendor_xiaomi_platina" remote="DHAMPOT" revision="11" clone-depth="1" />
         <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="DHAMPOT" revision="aosl" clone-depth="1" />
         <!--// HALs //-->
-		<!--Remove existing HAL-->
-	    <remove-project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" />
-	    <remove-project name="android_hardware_qcom_audio"  path="hardware/qcom-caf/msm8998/audio"/>
-  	  <remove-project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" />
-		<!--Clone new HAL-->
-	    <project path="hardware/qcom-caf/msm8998/display" name="AOSP-11/hardware_qcom-caf_display_msm8998" groups="pdk-qcom,qcom,qcom_display" remote="gut" revision="11" />
-  	  <project path="hardware/qcom-caf/msm8998/media" name="AOSP-11/hardware_qcom-caf_media_msm8998" groups="qcom,pdk-qcom" remote="gut" revision="11" />
- 	   <project path="hardware/qcom-caf/msm8998/audio" name="AOSP-11/hardware_qcom-caf_audio_msm8998" groups="qcom,pdk-qcom" remote="gut" revision="11" />
+	<!--Remove existing HAL-->
+	<remove-project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" />
+	<remove-project name="android_hardware_qcom_audio"  path="hardware/qcom-caf/msm8998/audio"/>
+  	<remove-project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" />
+	<!--Clone new HAL-->
+	<project path="hardware/qcom-caf/msm8998/display" name="AOSP-11/hardware_qcom-caf_display_msm8998" groups="pdk-qcom,qcom,qcom_display" remote="gut" revision="11" />
+  	<project path="hardware/qcom-caf/msm8998/media" name="AOSP-11/hardware_qcom-caf_media_msm8998" groups="qcom,pdk-qcom" remote="gut" revision="11" />
+ 	<project path="hardware/qcom-caf/msm8998/audio" name="AOSP-11/hardware_qcom-caf_audio_msm8998" groups="qcom,pdk-qcom" remote="gut" revision="11" />
 </manifest>
