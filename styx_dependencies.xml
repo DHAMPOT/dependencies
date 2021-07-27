@@ -19,7 +19,7 @@
 	<project path="hardware/qcom-caf/msm8998/display" name="AOSP-11/hardware_qcom-caf_display_msm8998" groups="pdk-qcom,qcom,qcom_display" remote="gut" revision="11" clone-depth="1" />
   	<project path="hardware/qcom-caf/msm8998/media" name="AOSP-11/hardware_qcom-caf_media_msm8998" groups="qcom,pdk-qcom" remote="gut" revision="11" clone-depth="1" />
  	<project path="hardware/qcom-caf/msm8998/audio" name="AOSP-11/hardware_qcom-caf_audio_msm8998" groups="qcom,pdk-qcom" remote="gut" revision="11" clone-depth="1" />
- 	<!---//MiuiCamera//--->
+ 	<!--// MiuiCamera //--->
  	<project path="vendor/xiaomi/MiuiCamera" name="1cecreamm/vendor_xiaomi_MiuiCamera" remote="gut" revision="master" clone-depth="1" />
  	<!--// Dirac //-->
         <project path="vendor/xiaomi/dirac" name="xiaomi-sdm660/vendor_xiaomi_dirac" remote="gut" revision="11" clone-depth="1" />
