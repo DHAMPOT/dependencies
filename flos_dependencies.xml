@@ -16,6 +16,8 @@
         
         <remove-project name="android_vendor_lineage" path="vendor/lineage" />
         <project path="vendor/lineage" name="android_vendor_lineage" remote="DHAMPOT" revision="lineage-18.1" clone-depth="1" />
+        
+        <remove-project name="platform/packages/apps/Car/LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer">
         <!--// HALs //-->
 	<!--Remove existing HAL-->
 	<remove-project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" />
