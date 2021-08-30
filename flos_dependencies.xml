@@ -9,7 +9,7 @@
         <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="DHAMPOT" revision="flos" clone-depth="1" />
         <project path="kernel/xiaomi/sdm660" name="UghTea" remote="D4rkKnight21" revision="def-freq" clone-depth="1" />
         <project path="vendor/xiaomi/platina" name="vendor_xiaomi_platina" remote="DHAMPOT" revision="11" clone-depth="1" />
-        <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="DHAMPOT" revision="aosp" clone-depth="1" />
+        <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="D4rkKnight21" revision="11" clone-depth="1" />
         <!--GCC/-->
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="mvaisakh/gcc-arm" remote="gut" revision="gcc-master" clone-depth="1" />
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="mvaisakh/gcc-arm64" remote="gut" revision="gcc-master" clone-depth="1" />
@@ -20,11 +20,11 @@
         <remove-project name="platform/packages/apps/Car/LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer">
         <!--// HALs //-->
 	<!--Remove existing HAL-->
-	<remove-project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" />
-	<remove-project name="LineageOS/android_hardware_qcom_audio"  path="hardware/qcom-caf/msm8998/audio"/>
-  	<remove-project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" />
+	<!--remove-project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" />
+	<--remove-project name="LineageOS/android_hardware_qcom_audio"  path="hardware/qcom-caf/msm8998/audio"/>
+  	<remove-project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" /-->
 	<!--Clone new HAL-->
-	<project path="hardware/qcom-caf/msm8998/display" name="AOSP-11/hardware_qcom-caf_display_msm8998" groups="pdk-qcom,qcom,qcom_display" remote="gut" revision="11" />
-  	<project path="hardware/qcom-caf/msm8998/media" name="AOSP-11/hardware_qcom-caf_media_msm8998" groups="qcom,pdk-qcom" remote="gut" revision="11" />
- 	<project path="hardware/qcom-caf/msm8998/audio" name="AOSP-11/hardware_qcom-caf_audio_msm8998" groups="qcom,pdk-qcom" remote="gut" revision="11" />
+	<!--project path="hardware/qcom-caf/msm8998/display" name="AOSP-11/hardware_qcom-caf_display_msm8998" groups="pdk-qcom,qcom,qcom_display" remote="gut" revision="11" /-->
+  	<!--project path="hardware/qcom-caf/msm8998/media" name="AOSP-11/hardware_qcom-caf_media_msm8998" groups="qcom,pdk-qcom" remote="gut" revision="11" /-->
+ 	<!--project path="hardware/qcom-caf/msm8998/audio" name="AOSP-11/hardware_qcom-caf_audio_msm8998" groups="qcom,pdk-qcom" remote="gut" revision="11" /-->
 </manifest>
