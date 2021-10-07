@@ -6,10 +6,10 @@
         <remote name="gut" fetch="https://github.com" />
         <!--Device Tree-->
         <project path="device/xiaomi/platina" name="device_xiaomi_platina" remote="DHAMPOT" revision="xdroid" />
-        <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="DHAMPOT" revision="caf" />
+        <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="DHAMPOT" revision="xd" />
         <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_platina" remote="DHAMPOT" revision="perf" clone-depth="1" />
         <project path="vendor/xiaomi/platina" name="vendor_xiaomi_platina" remote="DHAMPOT" revision="11" clone-depth="1" />
-        <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="DHAMPOT" revision="aosp" clone-depth="1" />
+        <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="DHAMPOT" revision="11" clone-depth="1" />
         
         <!--GCC/-->
         <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="mvaisakh/gcc-arm" remote="gut" revision="gcc-master" clone-depth="1" /-->
